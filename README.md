@@ -3,7 +3,7 @@
  - *Day 01* - **Sonar Sweep**.
  - *Day 02* - **Dive!**
  - *Day 03* - **Binary Diagnostic**.
- - *Day 04* - 
+ - *Day 04* - **Giant Squid.**
  - *Day 05* - 
  - *Day 06* -
  - *Day 07* -
