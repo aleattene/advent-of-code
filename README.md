@@ -10,7 +10,7 @@ People use them as a speed contest, interview prep, company training, university
  - *Day 03* - **Binary Diagnostic**.
  - *Day 04* - **Giant Squid.**
  - *Day 05* - **Hydrothermal Venture.**
- - *Day 06* -
+ - *Day 06* - **Lantern Fish.**
  - *Day 07* -
  - *Day 08* -
  - *Day 09* -
