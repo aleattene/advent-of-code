@@ -11,15 +11,15 @@ People use them as a speed contest, interview prep, company training, university
  - *Day 04* - **Giant Squid.**
  - *Day 05* - **Hydrothermal Venture.**
  - *Day 06* - **Lantern Fish.**
- - *Day 07* -
- - *Day 08* -
- - *Day 09* -
- - *Day 10* -
- - *Day 11* -
+ - *Day 07* - **The Treachery of Whales.**
+ - *Day 08* - **Seven Segment Search.**
+ - *Day 09* - **Smoke Basin.**
+ - *Day 10* - **Syntax Scoring.**
+ - *Day 11* - **Dumbo Octopus.**
  - *Day 12* -
  - *Day 13* -
  - *Day 14* -
- - *Day 15* -
+ - *Day 15* - 
  - *Day 16* -
  - *Day 17* - 
  - *Day 18* -
