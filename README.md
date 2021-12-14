@@ -18,7 +18,7 @@ People use them as a speed contest, interview prep, company training, university
  - *Day 11* - **Dumbo Octopus.**
  - *Day 12* -
  - *Day 13* -
- - *Day 14* -
+ - *Day 14* - **Extended Polymerization.**
  - *Day 15* - 
  - *Day 16* -
  - *Day 17* - 
