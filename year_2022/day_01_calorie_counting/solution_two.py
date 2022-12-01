@@ -1,4 +1,4 @@
-def get_max_calories(filename):
+def get_sum_max_three_calories(filename):
     counter = 0
     max_values = [0, 0, 0]
     with open(filename, 'r', encoding='utf-8') as calories:
@@ -12,4 +12,4 @@ def get_max_calories(filename):
     return sum(max_values)
 
 
-# print(get_max_calories('input.txt'))  # Expected output: 211447
+# print(get_sum_max_three_calories('input.txt'))  # Expected output: 211447

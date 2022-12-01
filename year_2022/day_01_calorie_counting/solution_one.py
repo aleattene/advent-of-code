@@ -1,4 +1,4 @@
-def from_file_to_data(filename):
+def get_max_calories(filename):
     counter = 0
     max_value = 0
     with open(filename, 'r', encoding='utf-8') as values:
@@ -11,6 +11,6 @@ def from_file_to_data(filename):
     return max_value
 
 
-# print(from_file_to_data('input.txt'))  # Expected output: 71934
+# print(get_max_calories('input.txt'))  # Expected output: 71934
 
 
