@@ -1,4 +1,3 @@
-
 def get_score(filename):
     match_guide = {
         'AY': 'AX', 'BY': 'BY', 'CY': 'CZ',
