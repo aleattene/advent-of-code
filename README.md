@@ -5,8 +5,8 @@ People use them as a speed contest, interview prep, company training, university
 
 ## Year 2022
 
- - *Day 01* - **Calorie Counting**
- - *Day 02* - 
+ - Day 01 - [Calorie Counting](https://github.com/aleattene/advent-of-code/tree/main/year_2022/day_01_calorie_counting)
+ - Day 02 - [Rock Paper Scissors](https://github.com/aleattene/advent-of-code/tree/main/year_2022/day_02_rock_paper_scissors)
  - *Day 03* - 
  - *Day 04* - 
  - *Day 05* - 
