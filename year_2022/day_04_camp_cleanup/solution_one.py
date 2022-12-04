@@ -3,11 +3,11 @@
 def get_data_from_file(filename):
     """
     :param filename: str
-    :return: data: list
+    :return: list
     """
     import re
     with open(filename, 'r', encoding='utf-8') as data:
-        return [re.findall('[0-9]+', p) for p in data.read().split('\n')]
+        return[list(map(int, re.findall('[0-9]+', sections))) for sections in data.read().split('\n')]
 
 
 def get_overlapping_sections(data):
@@ -15,8 +15,7 @@ def get_overlapping_sections(data):
     :param data: list
     :return: int
     """
-    return sum([1 for pair in data if (int(pair[0]) >= int(pair[2]) and int(pair[1]) <= int(pair[3])) or
-                int(pair[2]) >= int(pair[0]) and int(pair[3]) <= int(pair[1])])
+    return sum([1 for pos in data if pos[0] >= pos[2] and pos[1] <= pos[3] or pos[2] >= pos[0] and pos[3] <= pos[1]])
 
 
 if __name__ == '__main__':

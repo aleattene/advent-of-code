@@ -6,10 +6,8 @@ def get_overlapping_sections(data):
     :param data: list
     :return: int
     """
-    return sum([1 for pair in data if int(pair[2]) <= int(pair[0]) <= int(pair[3]) or
-                int(pair[2]) <= int(pair[1]) <= int(pair[3]) or
-                int(pair[0]) <= int(pair[2]) <= int(pair[1]) or
-                int(pair[0]) <= int(pair[3]) <= int(pair[1])])
+    return sum([1 for pos in data if pos[2] <= pos[0] <= pos[3] or pos[2] <= pos[1] <= pos[3] or
+                                     pos[0] <= pos[2] <= pos[1] or pos[0] <= pos[3] <= pos[1]])
 
 
 if __name__ == '__main__':
