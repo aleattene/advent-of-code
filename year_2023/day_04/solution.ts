@@ -14,9 +14,8 @@ function solveDay04(filename: string ="./input.txt"): [number, number]|string {
 
         rows.forEach((row: string, idxRow: number) => {
             const allValues: string[] = row.split("|");
-            const card: string = allValues[0].split(":")[0].trim();
-
-            if (!scratchcards[card]) { scratchcards[card] = 0; }
+            const numCard: number = idxRow + 1;
+            if (!scratchcards[numCard]) { scratchcards[numCard] = 0; }
 
             const winners: string[] = allValues[0].split(":")[1].trim().split(" ");
             const myNumbers: string[] = allValues[1].trim().split(" ");
@@ -26,36 +25,34 @@ function solveDay04(filename: string ="./input.txt"): [number, number]|string {
                 if (winners.includes(number) && number !== '') { count++; }
             })
 
-            let repeat: number = scratchcards[card];
+            let repeat: number = scratchcards[numCard];
             if (count) { repeat++; }
 
             for (let i = 0; i < repeat; i++) {
                 for (let winCard: number = 1; winCard <= count; winCard++) {
-                    const numCard: string = (idxRow + winCard + 1).toString().padStart(3, ' ');
-                    const key: string = `${card.slice(0, 4)} ${numCard}`;
-                    if (!scratchcards[key]) { scratchcards[key] = 1; }
-                    else { scratchcards[key] += 1; }
+                    const newCard: number = numCard + winCard;
+                    if (!scratchcards[newCard]) { scratchcards[newCard] = 1; }
+                    else { scratchcards[newCard] += 1; }
                 }
             }
 
-            scratchcards[card] += 1 ;
+            scratchcards[numCard] += 1 ;
 
             if (count - 1 >= 0) {
                 let point = 2 ** (count - 1);
                 totalPoints += point;
             }
-        })
+        });
 
-        const totalScratchcards: number[] = Object.values(scratchcards)
-        const sumScratchcards: number  = totalScratchcards.reduce((a: number, b: number) => a + b, 0)
+        const totalScratchcards: number[] = Object.values(scratchcards);
+        const sumScratchcards: number  = totalScratchcards.reduce((a: number, b: number) => a + b, 0);
 
-        return [totalPoints, sumScratchcards]
-    } catch (error) {
-        return `Error: ${error.message}`;
-    }
+        return [totalPoints, sumScratchcards];
+
+    } catch (error) { return `Error: ${error.message}`; }
 }
 
 
-// const result: [number, number]|string = solveDay04();
-// console.log("Total Points: ", result[0], "\nTotal Scratchcards: ", result[1])
+const result: [number, number]|string = solveDay04();
+console.log("Total Points: ", result[0], "\nTotal Scratchcards: ", result[1]);
 
