@@ -47,7 +47,8 @@ function solveDay04(filename: string ="./input.txt"): [number, number]|string {
         })
 
         const totalScratchcards: number[] = Object.values(scratchcards)
-            const sumScratchcards = totalScratchcards.reduce((a, b) => a + b, 0)
+        const sumScratchcards: number  = totalScratchcards.reduce((a: number, b: number) => a + b, 0)
+
         return [totalPoints, sumScratchcards]
     } catch (error) {
         return `Error: ${error.message}`;
