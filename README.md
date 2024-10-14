@@ -1,5 +1,11 @@
 # Advent of Code
 
+[![Tests](https://github.com/aleattene/advent-of-code/actions/workflows/aoc-tests.yml/badge.svg)](https://github.com/aleattene/advent-of-code/actions/workflows/aoc-tests.yml)
+[![codecov](https://codecov.io/gh/aleattene/advent-of-code/graph/badge.svg?token=1GAFPNSUMB)](https://codecov.io/gh/aleattene/advent-of-code)
+![Python](https://badgen.net/badge/Built%20with/Python/blue)
+![GitHub](https://img.shields.io/github/license/aleattene/advent-of-code)
+
+
 Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. 
 People use them as a speed contest, interview prep, company training, university coursework, practice problems, or to challenge each other.
 
