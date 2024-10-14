@@ -1,9 +1,12 @@
 # Advent of Code
 
-[![Tests](https://github.com/aleattene/advent-of-code/actions/workflows/aoc-tests.yml/badge.svg)](https://github.com/aleattene/advent-of-code/actions/workflows/aoc-tests.yml)
-[![codecov](https://codecov.io/gh/aleattene/advent-of-code/graph/badge.svg?token=1GAFPNSUMB)](https://codecov.io/gh/aleattene/advent-of-code)
 ![Python](https://badgen.net/badge/Built%20with/Python/blue)
-![GitHub](https://img.shields.io/github/license/aleattene/advent-of-code)
+[![codecov](https://codecov.io/gh/aleattene/advent-of-code/graph/badge.svg?token=1GAFPNSUMB)](https://codecov.io/gh/aleattene/advent-of-code)
+[![Tests](https://github.com/aleattene/advent-of-code/actions/workflows/aoc-tests.yml/badge.svg)](https://github.com/aleattene/advent-of-code/actions/workflows/aoc-tests.yml)
+[![GitHub commits](https://badgen.net/github/commits/aleattene/advent-of-code)](https://github.com/aleattene/advent-of-code/commits/)
+[![GitHub last commit](https://img.shields.io/github/last-commit/aleattene/advent-of-code)](https://github.com/aleattene/advent-of-code/commits/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/aleattene/advent-of-code/pulls)
+[![License](https://img.shields.io/github/license/aleattene/advent-of-code?color=blue)](https://github.com/aleattene/advent-of-code/blob/main/LICENSE)
 
 
 Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. 
