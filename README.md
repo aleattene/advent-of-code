@@ -210,7 +210,7 @@ People use them as a speed contest, interview prep, company training, university
 
 ## Year 2015
 
- - *Day 01* - **Not Quite Lisp**
+ - *Day 01* - [Not Quite Lisp](https://github.com/aleattene/advent-of-code/tree/main/year_2015/day_01_not_quite_lisp)
  - *Day 02* - 
  - *Day 03* - 
  - *Day 04* - 
