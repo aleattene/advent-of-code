@@ -8,6 +8,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 file_path_demo = os.path.join(current_dir, filename_demo)
 file_path = os.path.join(current_dir, filename)
 
+
 def test_day_02_2015_one():
     # TO FIX -> Handler error opening file
     result_demo = solve_day_02_2015_one(file_path_demo)

@@ -6,4 +6,4 @@ Part One: `1598415`
 
 Part Two: `3812909`
 
-*Demo: `00` and `00`*
+*Demo: `101` and `48`*
