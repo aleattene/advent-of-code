@@ -208,13 +208,13 @@ People use them as a speed contest, interview prep, company training, university
  - *Day 24* -
  - *Day 25* -
 
-## Year 2015
+## Year 2015 
 
- - *Day 01* - [Not Quite Lisp](https://github.com/aleattene/advent-of-code/tree/main/year_2015/day_01_not_quite_lisp)
- - *Day 02* - 
- - *Day 03* - 
- - *Day 04* - 
- - *Day 05* - 
+ - Day 01 - [Not Quite Lisp](https://github.com/aleattene/advent-of-code/tree/main/year_2015/day_01_not_quite_lisp) ⭐ ⭐
+ - Day 02 - [I Was Told There Would Be No Math](https://github.com/aleattene/advent-of-code/tree/main/year_2015/day_02_i_was_told_no_math) ⭐ ⭐
+ - Day 03 - [Perfectly Spherical Houses in a Vacuum](https://github.com/aleattene/advent-of-code/tree/main/year_2015/day_03_perfectly_spherical_houses) ⭐ ⭐
+ - Day 04 - [The Ideal Stocking Stuffer](https://github.com/aleattene/advent-of-code/tree/main/year_2015/day_04_ideal_stocking_stuffer) ⭐ ⭐
+ - Day 05 - [Doesn't He Have Intern-Elves For This?](https://github.com/aleattene/advent-of-code/tree/main/year_2015/day_05_no_intern_helves) ⭐ ⭐
  - *Day 06* -
  - *Day 07* -
  - *Day 08* -
