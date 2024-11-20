@@ -8,7 +8,7 @@ file_path_demo = os.path.join(current_dir, filename_demo)
 file_path = os.path.join(current_dir, filename)
 
 
-def test_day_03_201():
+def test_day_04_2015():
     # TO FIX -> Handler error opening file
     result_demo = solve_day_04_2015(file_path_demo)
     assert result_demo == (609043, 6742839)
