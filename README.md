@@ -14,6 +14,12 @@ People use them as a speed contest, interview prep, company training, university
 
 ## Year 2022
 
+ - Day 01 - [Trebuchet?!](https://github.com/aleattene/advent-of-code/tree/main/year_2023/day_01_trebuchet) ⭐ ⭐
+ - Day 02 - 
+
+
+## Year 2022
+
  - Day 01 - [Calorie Counting](https://github.com/aleattene/advent-of-code/tree/main/year_2022/day_01_calorie_counting)
  - Day 02 - [Rock Paper Scissors](https://github.com/aleattene/advent-of-code/tree/main/year_2022/day_02_rock_paper_scissors)
  - *Day 03* - 
