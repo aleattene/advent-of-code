@@ -12,13 +12,14 @@
 Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. 
 People use them as a speed contest, interview prep, company training, university coursework, practice problems, or to challenge each other.
 
-## Year 2022
+## [Year 2023](https://adventofcode.com/2023) 
 
  - Day 01 - [Trebuchet?!](https://github.com/aleattene/advent-of-code/tree/main/year_2023/day_01_trebuchet) ⭐ ⭐
- - Day 02 - 
+ - Day 02 - [Cube Conundrum](https://github.com/aleattene/advent-of-code/tree/main/year_2023/day_02_cube_conundrum) ⭐ ⭐
+ - Day 03 - []()
 
 
-## Year 2022
+## [Year 2022](https://adventofcode.com/2022) 
 
  - Day 01 - [Calorie Counting](https://github.com/aleattene/advent-of-code/tree/main/year_2022/day_01_calorie_counting)
  - Day 02 - [Rock Paper Scissors](https://github.com/aleattene/advent-of-code/tree/main/year_2022/day_02_rock_paper_scissors)
@@ -46,7 +47,7 @@ People use them as a speed contest, interview prep, company training, university
  - *Day 24* -
  - *Day 25* -
 
-## Year 2021
+## [Year 2021](https://adventofcode.com/2021) 
 
  - *Day 01* - **Sonar Sweep**.
  - *Day 02* - **Dive!**
@@ -74,7 +75,7 @@ People use them as a speed contest, interview prep, company training, university
  - *Day 24* -
  - *Day 25* -
 
-## Year 2020
+## [Year 2020](https://adventofcode.com/2020) 
 
  - *Day 01* - 
  - *Day 02* - 
@@ -102,7 +103,7 @@ People use them as a speed contest, interview prep, company training, university
  - *Day 24* -
  - *Day 25* -
 
-## Year 2019
+## [Year 2019](https://adventofcode.com/2019) 
 
  - *Day 01* - 
  - *Day 02* - 
@@ -130,7 +131,7 @@ People use them as a speed contest, interview prep, company training, university
  - *Day 24* -
  - *Day 25* -
 
-## Year 2018
+## [Year 2018](https://adventofcode.com/2018) 
 
  - *Day 01* - 
  - *Day 02* - 
@@ -158,7 +159,7 @@ People use them as a speed contest, interview prep, company training, university
  - *Day 24* -
  - *Day 25* -
 
-## Year 2017
+## [Year 2017](https://adventofcode.com/2017) 
 
  - *Day 01* - 
  - *Day 02* - 
@@ -186,7 +187,7 @@ People use them as a speed contest, interview prep, company training, university
  - *Day 24* -
  - *Day 25* -
 
-## Year 2016
+## [Year 2016](https://adventofcode.com/2016) 
 
  - *Day 01* - 
  - *Day 02* - 
@@ -214,7 +215,7 @@ People use them as a speed contest, interview prep, company training, university
  - *Day 24* -
  - *Day 25* -
 
-## Year 2015 
+## [Year 2015](https://adventofcode.com/2015)  
 
  - Day 01 - [Not Quite Lisp](https://github.com/aleattene/advent-of-code/tree/main/year_2015/day_01_not_quite_lisp) ⭐ ⭐
  - Day 02 - [I Was Told There Would Be No Math](https://github.com/aleattene/advent-of-code/tree/main/year_2015/day_02_i_was_told_no_math) ⭐ ⭐
