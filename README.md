@@ -16,7 +16,7 @@ People use them as a speed contest, interview prep, company training, university
 
  - Day 01 - [Trebuchet?!](https://github.com/aleattene/advent-of-code/tree/main/year_2023/day_01_trebuchet) ⭐ ⭐
  - Day 02 - [Cube Conundrum](https://github.com/aleattene/advent-of-code/tree/main/year_2023/day_02_cube_conundrum) ⭐ ⭐
- - Day 03 - []()
+ - Day 03 - [Gear Ratios](https://github.com/aleattene/advent-of-code/tree/main/year_2023/day_03_gear_ratios) ⭐ ⭐
 
 
 ## [Year 2022](https://adventofcode.com/2022) 
