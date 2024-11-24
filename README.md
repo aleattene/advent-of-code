@@ -12,12 +12,61 @@
 Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. 
 People use them as a speed contest, interview prep, company training, university coursework, practice problems, or to challenge each other.
 
+## [Year 2024](https://adventofcode.com/2024) 
+
+ - *Day 01* - 
+ - *Day 02* - 
+ - *Day 03* - 
+ - *Day 04* - 
+ - *Day 05* - 
+ - *Day 06* -
+ - *Day 07* -
+ - *Day 08* -
+ - *Day 09* -
+ - *Day 10* -
+ - *Day 11* -
+ - *Day 12* -
+ - *Day 13* -
+ - *Day 14* -
+ - *Day 15* -
+ - *Day 16* -
+ - *Day 17* - 
+ - *Day 18* -
+ - *Day 19* -
+ - *Day 20* -
+ - *Day 21* -
+ - *Day 22* -
+ - *Day 23* -
+ - *Day 24* -
+ - *Day 25* -
+
 ## [Year 2023](https://adventofcode.com/2023) 
 
  - Day 01 - [Trebuchet?!](https://github.com/aleattene/advent-of-code/tree/main/year_2023/day_01_trebuchet) ⭐ ⭐
  - Day 02 - [Cube Conundrum](https://github.com/aleattene/advent-of-code/tree/main/year_2023/day_02_cube_conundrum) ⭐ ⭐
  - Day 03 - [Gear Ratios](https://github.com/aleattene/advent-of-code/tree/main/year_2023/day_03_gear_ratios) ⭐ ⭐
-
+ - *Day 04* - 
+ - *Day 05* - 
+ - *Day 06* -
+ - *Day 07* -
+ - *Day 08* -
+ - *Day 09* -
+ - *Day 10* -
+ - *Day 11* -
+ - *Day 12* -
+ - *Day 13* -
+ - *Day 14* -
+ - *Day 15* -
+ - *Day 16* -
+ - *Day 17* - 
+ - *Day 18* -
+ - *Day 19* -
+ - *Day 20* -
+ - *Day 21* -
+ - *Day 22* -
+ - *Day 23* -
+ - *Day 24* -
+ - *Day 25* -
 
 ## [Year 2022](https://adventofcode.com/2022) 
 
