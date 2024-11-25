@@ -12,7 +12,6 @@ file_path = os.path.join(current_dir, filename)
 
 
 def test_day_01_2023_one():
-    # TO FIX -> Handler error opening file
     result_demo_one = solve_day_01_2023_one(file_path_demo_one)
     assert result_demo_one == 142
     result_one = solve_day_01_2023_one(file_path)
@@ -20,7 +19,6 @@ def test_day_01_2023_one():
 
 
 def test_second_part():
-    # TO FIX -> Handler error opening file
     result_demo_two = solve_day_01_2023_two(file_path_demo_two)
     assert result_demo_two == 281
     result_two = solve_day_01_2023_two(file_path)

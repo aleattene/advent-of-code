@@ -1,11 +1,4 @@
-def read_input_file(filename: str) -> list[str]:
-    """Read the input file and return a list of lines."""
-    try:
-        # Open the file and read the data using the utf-8 encoding
-        with open(filename, 'r', encoding='utf-8') as f:
-            return f.read().splitlines()
-    except Exception as error:
-        raise RuntimeError(f"Error reading the file: {error}")
+from utils.file_utils import get_input_file_path, read_input_file
 
 
 def find_first_and_last_digit(word: str) -> tuple[str, str]:
@@ -18,7 +11,10 @@ def find_first_and_last_digit(word: str) -> tuple[str, str]:
 def solve_day_01_2023_one(filename: str) -> int | str:
 
     try:
-        data = read_input_file(filename)
+        # Create the absolute path of the input file
+        input_file_path = get_input_file_path(__file__, filename)
+        # Read the input file
+        data = read_input_file(input_file_path)
     except Exception as error:
         return f"Error: {error}"
 

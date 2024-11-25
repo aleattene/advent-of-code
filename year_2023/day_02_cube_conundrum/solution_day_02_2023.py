@@ -1,10 +1,4 @@
-def read_input_file(filename: str) -> list[str]:
-    """Read the input file and return a list of lines."""
-    try:
-        with open(filename, 'r', encoding='utf-8') as f:
-            return f.read().splitlines()
-    except Exception as error:
-        raise RuntimeError(f"Error reading the file: {error}")
+from utils.file_utils import get_input_file_path, read_input_file
 
 
 def parse_line(line: str) -> tuple[int, list[tuple[int, str]]]:
@@ -53,7 +47,11 @@ def solve_day_02_2023(filename: str) -> tuple[int, int] | str:
     possibilities = {"red": 12, "green": 13, "blue": 14}
 
     try:
-        data = read_input_file(filename)
+        # Create the absolute path of the input file
+        input_file_path = get_input_file_path(__file__, filename)
+        # Read the input file
+        data = read_input_file(input_file_path)
+
         sum_ids = 0
         total_power = 0
         for line in data:

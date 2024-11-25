@@ -9,7 +9,6 @@ file_path = os.path.join(current_dir, filename)
 
 
 def test_day_03_2023():
-    # TO FIX -> Handler error opening file
     result_demo = solve_day_03_2023(file_path_demo)
     assert result_demo == (4361, 467835)
     result = solve_day_03_2023(file_path)

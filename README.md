@@ -45,7 +45,7 @@ People use them as a speed contest, interview prep, company training, university
  - Day 01 - [Trebuchet?!](https://github.com/aleattene/advent-of-code/tree/main/year_2023/day_01_trebuchet) ⭐ ⭐
  - Day 02 - [Cube Conundrum](https://github.com/aleattene/advent-of-code/tree/main/year_2023/day_02_cube_conundrum) ⭐ ⭐
  - Day 03 - [Gear Ratios](https://github.com/aleattene/advent-of-code/tree/main/year_2023/day_03_gear_ratios) ⭐ ⭐
- - *Day 04* - 
+ - Day 04 - [Scratchcards](https://github.com/aleattene/advent-of-code/tree/main/year_2023/day_04_scratchcards) ⭐ ⭐
  - *Day 05* - 
  - *Day 06* -
  - *Day 07* -

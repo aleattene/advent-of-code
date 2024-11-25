@@ -1,10 +1,4 @@
-def read_input_file(filename: str) -> list[str]:
-    """Read the input file and return a list of lines."""
-    try:
-        with open(filename, 'r', encoding='utf-8') as f:
-            return f.read().splitlines()
-    except Exception as error:
-        raise RuntimeError(f"Error reading the file: {error}")
+from utils.file_utils import get_input_file_path, read_input_file
 
 
 def is_within_bounds(map_data, row, col):
@@ -78,7 +72,11 @@ def calculate_energy_and_power(neighbours_values: list[int]) -> tuple[int, int]:
 def solve_day_03_2023(filename: str) -> tuple[int, int] | str:
     """Solve day 03 puzzle based on the map data from the input file."""
     try:
-        data = read_input_file(filename)
+        # Create the absolute path of the input file
+        input_file_path = get_input_file_path(__file__, filename)
+        # Read the input file
+        data = read_input_file(input_file_path)
+
         map_data = parse_map(data)
 
         sum_energy = 0
