@@ -14,7 +14,7 @@ People use them as a speed contest, interview prep, company training, university
 
 ## [Year 2024](https://adventofcode.com/2024) 
 
- - *Day 01* - 
+ - Day 01 - [Historian Hysteria](https://github.com/aleattene/advent-of-code/tree/main/year_2024/day_01_historian_hysteria) ⭐ ⭐
  - *Day 02* - 
  - *Day 03* - 
  - *Day 04* - 
@@ -46,7 +46,7 @@ People use them as a speed contest, interview prep, company training, university
  - Day 02 - [Cube Conundrum](https://github.com/aleattene/advent-of-code/tree/main/year_2023/day_02_cube_conundrum) ⭐ ⭐
  - Day 03 - [Gear Ratios](https://github.com/aleattene/advent-of-code/tree/main/year_2023/day_03_gear_ratios) ⭐ ⭐
  - Day 04 - [Scratchcards](https://github.com/aleattene/advent-of-code/tree/main/year_2023/day_04_scratchcards) ⭐ ⭐
- - *Day 05* - 
+ - Day 05 - [If You Give A Seed A Fertilizer](https://github.com/aleattene/advent-of-code/tree/main/year_2023/day_05_seed_fertilizer) ⭐ ⭐
  - *Day 06* -
  - *Day 07* -
  - *Day 08* -
