@@ -17,7 +17,7 @@ People use them as a speed contest, interview prep, company training, university
  - Day 01 - [Historian Hysteria](https://github.com/aleattene/advent-of-code/tree/main/year_2024/day_01_historian_hysteria) ⭐ ⭐
  - Day 02 - [Red Nosed Reports](https://github.com/aleattene/advent-of-code/tree/main/year_2024/day_02_red_nosed_reports) ⭐ ⭐
  - Day 03 - [Mull_It_Over](https://github.com/aleattene/advent-of-code/tree/main/year_2024/day_03_mull_it_over) ⭐ ⭐
- - *Day 04* - 
+ - Day 04 - [Ceres Search](https://github.com/aleattene/advent-of-code/tree/main/year_2024/day_04_ceres_search) ⭐ ⭐
  - *Day 05* - 
  - *Day 06* -
  - *Day 07* -
