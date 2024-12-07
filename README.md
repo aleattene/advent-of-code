@@ -20,7 +20,7 @@ People use them as a speed contest, interview prep, company training, university
  - Day 04 - [Ceres Search](https://github.com/aleattene/advent-of-code/tree/main/year_2024/day_04_ceres_search) ⭐ ⭐
  - *Day 05* - 
  - *Day 06* -
- - *Day 07* -
+ - Day 07 - [Historian Hysteria](https://github.com/aleattene/advent-of-code/tree/main/year_2024/day_07_bridge_repair) ⭐ ⭐
  - *Day 08* -
  - *Day 09* -
  - *Day 10* -

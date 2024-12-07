@@ -1,4 +1,12 @@
-## Day 04: Scratchcards
+## Day 04: If You Give A Seed A Fertilizer
+
+https://adventofcode.com/2023/day/5
+
+Part One: `178159714`
+
+Part Two: `100165128`
+
+*Demo: `35` and `46`*
 
 ### Part One
 The gondola takes you up. 
