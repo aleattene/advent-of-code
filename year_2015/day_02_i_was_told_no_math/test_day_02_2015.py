@@ -20,8 +20,8 @@ def test_day_02_2015():
     assert result_demo == 48
     if environment == "development":
         expected_result_one = int(os.getenv("SOLUTION_01_DAY_02_2015"))
-        expected_result_two = int(os.getenv("SOLUTION_02_DAY_02_2015"))
         result_one = solve_day_02_2015_one(file_path)
-        result_two = solve_day_02_2015_two(file_path)
         assert expected_result_one == result_one
+        expected_result_two = int(os.getenv("SOLUTION_02_DAY_02_2015"))
+        result_two = solve_day_02_2015_two(file_path)
         assert expected_result_two == result_two
