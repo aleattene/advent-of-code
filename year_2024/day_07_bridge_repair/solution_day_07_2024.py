@@ -74,4 +74,3 @@ def solve_day_07_2024(filename: str) -> tuple[int, int] | str:
     calibration_result_with_concat += calibration_result
 
     return calibration_result, calibration_result_with_concat
-
