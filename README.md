@@ -126,7 +126,7 @@ People use them as a speed contest, interview prep, company training, university
 
 ## [Year 2020](https://adventofcode.com/2020) 
 
- - *Day 01* - 
+ - *Day 01* - [Report Repair](https://github.com/aleattene/advent-of-code/tree/main/year_2020/day_01_report_repair) ⭐ ⭐
  - *Day 02* - 
  - *Day 03* - 
  - *Day 04* - 
