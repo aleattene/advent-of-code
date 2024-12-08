@@ -11,7 +11,7 @@
 
 Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. 
 People use them as a speed contest, interview prep, company training, university coursework, practice problems, or to challenge each other.
-
+Resonant Collinearity
 ## [Year 2024](https://adventofcode.com/2024) 
 
  - Day 01 - [Historian Hysteria](https://github.com/aleattene/advent-of-code/tree/main/year_2024/day_01_historian_hysteria) ⭐ ⭐
@@ -20,8 +20,8 @@ People use them as a speed contest, interview prep, company training, university
  - Day 04 - [Ceres Search](https://github.com/aleattene/advent-of-code/tree/main/year_2024/day_04_ceres_search) ⭐ ⭐
  - *Day 05* - 
  - *Day 06* -
- - Day 07 - [Historian Hysteria](https://github.com/aleattene/advent-of-code/tree/main/year_2024/day_07_bridge_repair) ⭐ ⭐
- - *Day 08* -
+ - Day 07 - [Bridge Repair](https://github.com/aleattene/advent-of-code/tree/main/year_2024/day_07_bridge_repair) ⭐ ⭐
+ - Day 08 - [Resonant Collinearity](https://github.com/aleattene/advent-of-code/tree/main/year_2024/day_08_resonant_collinearity) ⭐ ⭐
  - *Day 09* -
  - *Day 10* -
  - *Day 11* -
