@@ -23,7 +23,7 @@ Resonant Collinearity
  - Day 07 - [Bridge Repair](https://github.com/aleattene/advent-of-code/tree/main/year_2024/day_07_bridge_repair) ⭐ ⭐
  - Day 08 - [Resonant Collinearity](https://github.com/aleattene/advent-of-code/tree/main/year_2024/day_08_resonant_collinearity) ⭐ ⭐
  - *Day 09* -
- - *Day 10* -
+ - Day 10 - [Hoof It](https://github.com/aleattene/advent-of-code/tree/main/year_2024/day_10_hoof_it) ⭐ ⭐
  - *Day 11* -
  - *Day 12* -
  - *Day 13* -
