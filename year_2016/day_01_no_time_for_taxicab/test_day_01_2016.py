@@ -12,7 +12,7 @@ file_path_demo = os.path.join(current_dir, filename_demo)
 file_path = os.path.join(current_dir, filename)
 
 
-def test_day_01_2024():
+def test_day_01_2016():
     results_demo = solve_day_01_2016(file_path_demo)
     assert results_demo == (8, 4)
     if environment == "development":

@@ -1,4 +1,4 @@
-from utils.file_utils import get_input_file_path, read_input_file
+from utils.file_utils import get_input_file_path, read_input_file, get_manhattan_distance
 
 
 def solve_day_01_2016(filename: str) -> tuple[int, int] | str:
@@ -38,12 +38,12 @@ def solve_day_01_2016(filename: str) -> tuple[int, int] | str:
             position = (position_x, position_y)
             if first_position_visited_distance is None and position in visited_positions:
                 # Manhattan distance from the first position visited to the starting point (0,0)
-                first_position_visited_distance = abs(position_x) + abs(position_y)
+                first_position_visited_distance = get_manhattan_distance(position_x, position_y)
             elif first_position_visited_distance is None:
                 visited_positions.append(position)
 
-    # Manhattan distance (abs(x2-x1)+abs(y2-y1)) from the last position to the starting point (0,0)
-    final_distance = abs(position_x) + abs(position_y)
+    # Manhattan distance from the last position to the starting point (0,0)
+    final_distance = get_manhattan_distance(position_x, position_y)
 
     return final_distance, first_position_visited_distance
 

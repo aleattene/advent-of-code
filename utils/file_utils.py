@@ -14,3 +14,8 @@ def read_input_file(filename: str) -> list[str]:
             return f.read().splitlines()
     except Exception as error:
         raise RuntimeError(f"Error reading the file: {error}")
+
+
+def get_manhattan_distance(x2: int, y2: int, x1: int = 0, y1: int = 0) -> int:
+    """Calculate the Manhattan distance between two points."""
+    return abs(x2 - x1) + abs(y2 - y1)
