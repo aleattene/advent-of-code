@@ -239,7 +239,7 @@ Resonant Collinearity
 ## [Year 2016](https://adventofcode.com/2016)
 
  - Day 01 - [No Time for a Taxicab](https://github.com/aleattene/advent-of-code/tree/main/year_2016/day_01_no_time_for_taxicab) ⭐ ⭐
- - *Day 02* - 
+ - Day 02 - [Bathroom Security](https://github.com/aleattene/advent-of-code/tree/main/year_2016/day_02_bathroom_security) ⭐ ⭐
  - *Day 03* - 
  - *Day 04* - 
  - *Day 05* - 
