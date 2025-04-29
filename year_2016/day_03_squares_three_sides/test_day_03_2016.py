@@ -14,9 +14,9 @@ file_path = os.path.join(current_dir, filename)
 
 def test_day_03_2016():
     results_demo = solve_day_03_2016(file_path_demo)
-    assert results_demo == ('3', '6')
+    assert results_demo == (3, 6)
     if environment == "development":
-        expected_results = (os.getenv("SOLUTION_01_DAY_03_2016"),
-                            os.getenv("SOLUTION_02_DAY_03_2016"))
+        expected_results = (int(os.getenv("SOLUTION_01_DAY_03_2016")),
+                            int(os.getenv("SOLUTION_02_DAY_03_2016")))
         results = solve_day_03_2016(file_path)
         assert expected_results == results
