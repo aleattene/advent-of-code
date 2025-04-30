@@ -213,7 +213,7 @@ Resonant Collinearity
  - Day 01 - [Inverse Captcha](https://github.com/aleattene/advent-of-code/tree/main/year_2017/day_01_inverse_captcha) ⭐ ⭐
  - Day 02 - [Corruption Checksum](https://github.com/aleattene/advent-of-code/tree/main/year_2017/day_02_corruption_checksum) ⭐ ⭐
  - *Day 03* - 
- - *Day 04* - 
+ - Day 04 - [High-Entropy Passphrases](https://github.com/aleattene/advent-of-code/tree/main/year_2017/day_04_high_entropy_passphrases) ⭐ ⭐
  - *Day 05* - 
  - *Day 06* -
  - *Day 07* -
