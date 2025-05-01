@@ -182,7 +182,7 @@ Resonant Collinearity
 
 ## [Year 2018](https://adventofcode.com/2018) 
 
- - *Day 01* - 
+ - Day 01 - [Chronal Calibration](https://github.com/aleattene/advent-of-code/tree/main/year_2018/day_01_chronal_calibration) ⭐ ⭐
  - *Day 02* - 
  - *Day 03* - 
  - *Day 04* - 
