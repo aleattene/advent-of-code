@@ -101,3 +101,20 @@ def solve_day_04_2024(filename: str) -> tuple[int, int] | str:
     occurrences_cross_pattern = find_occurrences_cross_pattern(data, cross_patterns)
 
     return occurrences_pattern, occurrences_cross_pattern
+
+
+if __name__ == "__main__":
+
+    # Import function to print results
+    from utils.file_utils import print_day_results
+
+    # Calculate results for demo and real input files
+    demo_1, demo_2 = solve_day_04_2024("input_demo.txt")
+    solution_1, solution_2 = solve_day_04_2024("input.txt")
+
+    # Print results in a formatted table (using rich)
+    print_day_results(
+        "2024", "04",
+        str(demo_1), str(demo_2),
+        str(solution_1), str(solution_2)
+    )

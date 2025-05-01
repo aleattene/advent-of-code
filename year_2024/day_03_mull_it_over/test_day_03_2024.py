@@ -1,6 +1,7 @@
 import os
 from dotenv import load_dotenv
 from .solution_day_03_2024 import solve_day_03_2024
+
 load_dotenv
 environment = os.getenv("ENVIRONMENT")
 
