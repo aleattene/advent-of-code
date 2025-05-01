@@ -14,7 +14,7 @@ file_path = os.path.join(current_dir, filename)
 
 def test_day_01_2019():
     results_demo = solve_day_01_2019(file_path_demo)
-    assert results_demo == ("34241", "51316")
+    assert results_demo == (34241, 51316)
     if environment == "development":
         expected_results = (int(os.getenv("SOLUTION_01_DAY_01_2019")),
                             int(os.getenv("SOLUTION_02_DAY_01_2019")))
