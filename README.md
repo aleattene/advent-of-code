@@ -154,7 +154,7 @@ Resonant Collinearity
 
 ## [Year 2019](https://adventofcode.com/2019) 
 
- - *Day 01* - 
+ - Day 01 - [The Tyranny of the Rocket Equation](https://github.com/aleattene/advent-of-code/tree/main/year_2018/day_01_tyranny_rocket_equation) ⭐ ⭐
  - *Day 02* - 
  - *Day 03* - 
  - *Day 04* - 
