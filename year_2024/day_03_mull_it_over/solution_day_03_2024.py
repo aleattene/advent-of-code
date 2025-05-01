@@ -4,7 +4,11 @@ from utils.file_utils import get_input_file_path, read_input_file
 
 
 def solve_day_03_2024(filename: str) -> tuple[int, int] | str:
-    """Solutions for Day 03 of AoC 2024."""
+    """
+    Solutions for Day 03 of AoC 2024.
+    :param filename: The name of the input file containing the data.
+    :return: TO FIX
+    """
     try:
         # Create the absolute path of the input file
         input_file_path = get_input_file_path(__file__, filename)
@@ -44,3 +48,20 @@ def solve_day_03_2024(filename: str) -> tuple[int, int] | str:
                 total_do_mul_sum += num1 * num2
 
     return total_mul_sum, total_do_mul_sum
+
+
+if __name__ == "__main__":
+
+    # Import function to print results
+    from utils.file_utils import print_day_results
+
+    # Calculate results for demo and real input files
+    demo_1, demo_2 = solve_day_03_2024("input_demo.txt")
+    solution_1, solution_2 = solve_day_03_2024("input.txt")
+
+    # Print results in a formatted table (using rich)
+    print_day_results(
+        "2024", "03",
+        str(demo_1), str(demo_2),
+        str(solution_1), str(solution_2)
+    )
