@@ -57,3 +57,62 @@ def print_day_results(year: str, day: str, demo_1: str, demo_2: str, solution_1:
     # Print the table to the console
     console.print(table)
     console.print()
+
+
+def encrypt_caesar_cipher_with_exceptions(
+        text_to_encrypt: str,
+        shift: int,
+        alphabet_length: int = 26,
+        exceptions: dict[str, str] | None = None
+) -> str:
+    """
+    Encrypt a Caesar cipher with a given shift.
+    :param text_to_encrypt: The text to encrypt.
+    :param shift: The shift value for the Caesar cipher.
+    :param alphabet_length: The length of the alphabet (26 for English).
+    :param exceptions: A dictionary of exceptions for specific characters.
+    :return: The encrypted text.
+    """
+    # Check if exceptions is None and initialize it as an empty dictionary
+    exceptions = exceptions or {}
+    # Normalize the shift value to be within the range of the alphabet length
+    shift %= alphabet_length
+
+    encrypted_text = []
+
+    for char in text_to_encrypt:
+        # If the character is in exceptions, replace it with the corresponding value in the exceptions dictionary
+        if exceptions and char in exceptions:
+            encrypted_text.append(exceptions[char])
+        # If the character is a digit, apply the shift to it
+        elif char.isalpha():
+            # Determine the base ASCII value for uppercase or lowercase letters
+            base_char = ord('A') if char.isupper() else ord('a')
+            # Calculate the new position by applying the shift with wrapping
+            code_char = (ord(char) - base_char + shift) % alphabet_length
+            # Append the encrypted character to the result
+            encrypted_text.append(chr(base_char + code_char))
+        # If the character is not a letter, keep it unchanged
+        else:
+            encrypted_text.append(char)
+    return "".join(encrypted_text)
+
+
+def decrypt_caesar_cipher_with_exceptions(
+    text_to_decrypt: str,
+    shift: int,
+    alphabet_length: int = 26,
+    exceptions: dict[str, str] | None = None
+) -> str:
+    """
+    Decrypt a Caesar cipher with a given shift.
+    :param text_to_decrypt: The text to decrypt.
+    :param shift: The shift value for the Caesar cipher.
+    :param alphabet_length: The length of the alphabet (26 for English).
+    :param exceptions: A dictionary of exceptions for specific characters.
+    :return: The decrypted text.
+    """
+    # Call the encrypt function with a negative shift to decrypt
+    return encrypt_caesar_cipher_with_exceptions(text_to_decrypt, -shift, alphabet_length, exceptions)
+
+
