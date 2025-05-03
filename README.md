@@ -242,7 +242,7 @@ Resonant Collinearity
  - Day 02 - [Bathroom Security](https://github.com/aleattene/advent-of-code/tree/main/year_2016/day_02_bathroom_security) ⭐ ⭐
  - Day 03 - [Squares With Three Sides](https://github.com/aleattene/advent-of-code/tree/main/year_2016/day_03_squares_three_sides) ⭐ ⭐
  - Day 04 - [Security Through Obscurity](https://github.com/aleattene/advent-of-code/tree/main/year_2016/day_04_security_through_obscurity) ⭐ ⭐
- - *Day 05* - 
+ - Day 05 - [How About a Nice Game of Chess?](https://github.com/aleattene/advent-of-code/tree/main/year_2016/day_05_how_about_nice_game_chess) ⭐ ⭐
  - *Day 06* -
  - *Day 07* -
  - *Day 08* -
