@@ -23,7 +23,12 @@ def get_manhattan_distance(x2: int, y2: int, x1: int = 0, y1: int = 0) -> int:
     return abs(x2 - x1) + abs(y2 - y1)
 
 
-def print_day_results(year: str, day: str, demo_1: str, demo_2: str, solution_1: str, solution_2: str, ) -> None:
+def print_day_results(
+        year: str, day: str,
+        demo_1: str, demo_2: str,
+        solution_1: str, solution_2: str,
+        execution_time: int = 0
+) -> None:
     """
     Print a rich table with the results of Advent of Code for a given day.
     :param year: year of the challenge
@@ -32,6 +37,7 @@ def print_day_results(year: str, day: str, demo_1: str, demo_2: str, solution_1:
     :param demo_2: result demo part 2
     :param solution_1: result real part 1
     :param solution_2: result real part 2
+    :param execution_time: execution time in milliseconds
     """
     # Create a console object for printing
     console = Console()
@@ -43,6 +49,7 @@ def print_day_results(year: str, day: str, demo_1: str, demo_2: str, solution_1:
         title=title,
         style="bold white",
         title_style="bold yellow",
+        caption_style="dim bright_cyan",
     )
 
     # Add columns headers to the table
@@ -52,7 +59,9 @@ def print_day_results(year: str, day: str, demo_1: str, demo_2: str, solution_1:
 
     # Add rows with demo and solution results to the table
     table.add_row("Demo", str(demo_1), str(demo_2), style="white")
-    table.add_row("Solution", str(solution_1), str(solution_2), style="")
+    table.add_row("Solution", str(solution_1), str(solution_2), style="", end_section=True)
+    # Add a caption with the execution time
+    table.caption = f"Execution Time: {execution_time} ms"
 
     # Print the table to the console
     console.print(table)

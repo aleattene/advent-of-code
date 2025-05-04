@@ -214,7 +214,7 @@ Resonant Collinearity
  - Day 02 - [Corruption Checksum](https://github.com/aleattene/advent-of-code/tree/main/year_2017/day_02_corruption_checksum) ⭐ ⭐
  - *Day 03* - 
  - Day 04 - [High-Entropy Passphrases](https://github.com/aleattene/advent-of-code/tree/main/year_2017/day_04_high_entropy_passphrases) ⭐ ⭐
- - *Day 05* - 
+ - Day 05 - [A Maze of Twisty Trampolines, All Alike](https://github.com/aleattene/advent-of-code/tree/main/year_2017/day_05_maze_twisty_trampolines) ⭐ ⭐
  - *Day 06* -
  - *Day 07* -
  - *Day 08* -
