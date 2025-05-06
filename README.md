@@ -185,7 +185,8 @@ Resonant Collinearity
  - Day 01 - [Chronal Calibration](https://github.com/aleattene/advent-of-code/tree/main/year_2018/day_01_chronal_calibration) ⭐ ⭐
  - Day 02 - [Inventory Management System](https://github.com/aleattene/advent-of-code/tree/main/year_2018/day_02_inventory_management_system) ⭐ ⭐
  - Day 03 - [No Matter How You Slice It](https://github.com/aleattene/advent-of-code/tree/main/year_2018/day_03_no_matter_how_slice_it) ⭐ ⭐
- - *Day 04* - 
+ - Day 04 - [Repose Record](https://github.com/aleattene/advent-of-code/tree/main/year_2018/day_04_repose_record) ⭐ ⭐
+ - Day 05 - [Alchemical Reduction](https://github.com/aleattene/advent-of-code/tree/main/year_2018/day_05_alchemical_reduction) ⭐ ⭐
  - *Day 05* - 
  - *Day 06* -
  - *Day 07* -

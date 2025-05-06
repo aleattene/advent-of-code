@@ -2,7 +2,7 @@ from collections import defaultdict, Counter
 from utils.file_utils import get_input_file_path, read_input_file
 
 
-def solve_day_04_2018(filename: str) -> tuple[int, str]:
+def solve_day_04_2018(filename: str) -> tuple[int, int]:
     """
     Solution of the Advent of Code 2018 Day 04 - Repose Record.
     :param filename: The name of the input file containing the room data.
