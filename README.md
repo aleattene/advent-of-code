@@ -154,8 +154,8 @@ Resonant Collinearity
 
 ## [Year 2019](https://adventofcode.com/2019) 
 
- - Day 01 - [The Tyranny of the Rocket Equation](https://github.com/aleattene/advent-of-code/tree/main/year_2018/day_01_tyranny_rocket_equation) ⭐ ⭐
- - *Day 02* - 
+ - Day 01 - [The Tyranny of the Rocket Equation](https://github.com/aleattene/advent-of-code/tree/main/year_2019/day_01_tyranny_rocket_equation) ⭐ ⭐
+ - Day 02 - [1202 Program Alarm](https://github.com/aleattene/advent-of-code/tree/main/year_2019/day_02_1202_program_alarm) ⭐ ⭐
  - *Day 03* - 
  - *Day 04* - 
  - *Day 05* - 
@@ -187,7 +187,6 @@ Resonant Collinearity
  - Day 03 - [No Matter How You Slice It](https://github.com/aleattene/advent-of-code/tree/main/year_2018/day_03_no_matter_how_slice_it) ⭐ ⭐
  - Day 04 - [Repose Record](https://github.com/aleattene/advent-of-code/tree/main/year_2018/day_04_repose_record) ⭐ ⭐
  - Day 05 - [Alchemical Reduction](https://github.com/aleattene/advent-of-code/tree/main/year_2018/day_05_alchemical_reduction) ⭐ ⭐
- - *Day 05* - 
  - *Day 06* -
  - *Day 07* -
  - *Day 08* -
