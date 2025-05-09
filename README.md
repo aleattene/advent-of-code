@@ -157,7 +157,7 @@ Resonant Collinearity
  - Day 01 - [The Tyranny of the Rocket Equation](https://github.com/aleattene/advent-of-code/tree/main/year_2019/day_01_tyranny_rocket_equation) ⭐ ⭐
  - Day 02 - [1202 Program Alarm](https://github.com/aleattene/advent-of-code/tree/main/year_2019/day_02_1202_program_alarm) ⭐ ⭐
  - Day 03 - [Crossed Wires](https://github.com/aleattene/advent-of-code/tree/main/year_2019/day_03_crossed_wires) ⭐ ⭐
- - *Day 04* - 
+ - Day 04 - [Secure Container](https://github.com/aleattene/advent-of-code/tree/main/year_2019/day_04_secure_container) ⭐ ⭐
  - *Day 05* - 
  - *Day 06* -
  - *Day 07* -
