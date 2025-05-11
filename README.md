@@ -126,8 +126,8 @@ Resonant Collinearity
 
 ## [Year 2020](https://adventofcode.com/2020) 
 
- - *Day 01* - [Report Repair](https://github.com/aleattene/advent-of-code/tree/main/year_2020/day_01_report_repair) ⭐ ⭐
- - *Day 02* - 
+ - Day 01 - [Report Repair](https://github.com/aleattene/advent-of-code/tree/main/year_2020/day_01_report_repair) ⭐ ⭐
+ - Day 02 - [Password Philosophy](https://github.com/aleattene/advent-of-code/tree/main/year_2020/day_02_password_philosophy) ⭐ ⭐
  - *Day 03* - 
  - *Day 04* - 
  - *Day 05* - 
@@ -158,7 +158,7 @@ Resonant Collinearity
  - Day 02 - [1202 Program Alarm](https://github.com/aleattene/advent-of-code/tree/main/year_2019/day_02_1202_program_alarm) ⭐ ⭐
  - Day 03 - [Crossed Wires](https://github.com/aleattene/advent-of-code/tree/main/year_2019/day_03_crossed_wires) ⭐ ⭐
  - Day 04 - [Secure Container](https://github.com/aleattene/advent-of-code/tree/main/year_2019/day_04_secure_container) ⭐ ⭐
- - *Day 05* - 
+ - Day 05 - [Sunny with a Chance of Asteroid](https://github.com/aleattene/advent-of-code/tree/main/year_2019/day_05_sunny_with_chance_asteroids) ⭐ ⭐
  - *Day 06* -
  - *Day 07* -
  - *Day 08* -
