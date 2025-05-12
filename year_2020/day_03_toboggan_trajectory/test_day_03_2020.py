@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv
-from .solution_day_02_2020 import solve_day_02_2020
+from .solution_day_03_2020 import solve_day_03_2020
 
 load_dotenv()
 environment = os.getenv("ENVIRONMENT")
@@ -12,11 +12,11 @@ file_path_demo = os.path.join(current_dir, filename_demo)
 file_path = os.path.join(current_dir, filename)
 
 
-def test_day_02_2020():
-    results_demo = solve_day_02_2020(file_path_demo)
-    assert results_demo == (2, 1)
+def test_day_03_2020():
+    results_demo = solve_day_03_2020(file_path_demo)
+    assert results_demo == (7, 336)
     if environment == "development":
-        expected_results = (int(os.getenv("SOLUTION_01_DAY_02_2020")),
-                            int(os.getenv("SOLUTION_02_DAY_02_2020")))
-        results = solve_day_02_2020(file_path)
+        expected_results = (int(os.getenv("SOLUTION_01_DAY_03_2020")),
+                            int(os.getenv("SOLUTION_02_DAY_03_2020")))
+        results = solve_day_03_2020(file_path)
         assert expected_results == results

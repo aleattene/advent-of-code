@@ -1,4 +1,3 @@
-from collections import Counter
 from utils.file_utils import get_input_file_path, read_input_file
 
 
@@ -17,14 +16,14 @@ def solve_day_02_2020(filename: str) -> tuple[int, int]:
         raise RuntimeError(f"Error: {error}")
 
     # Initialize the number of valid passwords for both parts
-    valid_passwords_1 = 0
-    valid_passwords_2 = 0
+    valid_passwords_1: int = 0
+    valid_passwords_2: int = 0
 
     # Iterate through each line of the input data ("password-policy character: password")
     for line in data:
         # Identify the values of the password policy and the password
         values_range, token, password = line.split(" ")
-        char_required = token[0]
+        char_required: str = token[0]
         min_reference , max_reference = map(int, values_range.split("-", 1))
 
         # Check if the password is valid verifying the number of occurrences of the required character

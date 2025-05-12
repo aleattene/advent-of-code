@@ -128,7 +128,7 @@ Resonant Collinearity
 
  - Day 01 - [Report Repair](https://github.com/aleattene/advent-of-code/tree/main/year_2020/day_01_report_repair) ⭐ ⭐
  - Day 02 - [Password Philosophy](https://github.com/aleattene/advent-of-code/tree/main/year_2020/day_02_password_philosophy) ⭐ ⭐
- - *Day 03* - 
+ - Day 03 - [Toboggan Trajectory](https://github.com/aleattene/advent-of-code/tree/main/year_2020/day_03_toboggan_trajectory) ⭐ ⭐
  - *Day 04* - 
  - *Day 05* - 
  - *Day 06* -
