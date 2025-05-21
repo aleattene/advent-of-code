@@ -125,7 +125,7 @@ def solve_day_04_2020(filename: str) -> tuple[int, int]:
             if all(field_validators[field[:3]](field[4:]) for field in fields):
                 valid_passports_2 += 1
 
-    # Return the number of trees encountered
+    # Return the number of valid passports for both parts
     return valid_passports_1, valid_passports_2
 
 
