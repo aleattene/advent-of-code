@@ -98,7 +98,7 @@ Resonant Collinearity
 
 ## [Year 2021](https://adventofcode.com/2021) 
 
- - *Day 01* - **Sonar Sweep**.
+ - Day 01 - [Sonar Sweep](https://github.com/aleattene/advent-of-code/tree/main/year_2020/day_01_sonar_sweep) ⭐ ⭐
  - *Day 02* - **Dive!**
  - *Day 03* - **Binary Diagnostic**.
  - *Day 04* - **Giant Squid.**
