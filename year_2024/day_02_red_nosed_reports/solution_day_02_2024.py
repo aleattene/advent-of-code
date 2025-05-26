@@ -13,12 +13,12 @@ def is_report_increasing(current_level: int, next_level: int) -> bool:
 
 def is_report_safe(levels: list[int]) -> bool:
     """Check if the sequence of levels is safe (all differences are within range and all directions are consistent)."""
-    directions = []
-    safety = []
+    directions: list[bool] = []
+    safety: list[bool] = []
     for i in range(len(levels) - 1):
-        is_level_increasing = is_report_increasing(levels[i], levels[i + 1])
+        is_level_increasing: bool = is_report_increasing(levels[i], levels[i + 1])
         directions.append(is_level_increasing)
-        is_level_safe = is_safe_levels(levels[i], levels[i + 1])
+        is_level_safe: bool = is_safe_levels(levels[i], levels[i + 1])
         safety.append(is_level_safe)
 
     # Check if the entire sequence (report) is either consistently increasing or decreasing
@@ -37,14 +37,14 @@ def solve_day_02_2024(filename: str) -> tuple[int, int] | str:
     except Exception as error:
         return f"Error: {error}"
 
-    # Initialize the counters (solution one and two)
-    safe_reports = 0
-    safe_reports_with_tolerance = 0
+    # Initialize the counters (solution 1 and 2)
+    safe_reports: int = 0
+    safe_reports_with_tolerance: int = 0
 
     # Iterate through each line in the input data
     for line in data:
         # Parse the levels from the line and convert chars to integers
-        levels = list(map(int, line.split()))
+        levels: list[int] = list(map(int, line.split()))
 
         # Check if the sequence (report) is already safe (no need to modify to check tolerance for eventual safety)
         if is_report_safe(levels):
@@ -54,7 +54,7 @@ def solve_day_02_2024(filename: str) -> tuple[int, int] | str:
             safe_report_with_tolerance = False
             for i in range(len(levels)):
                 # Create a copy of the levels list without the current element
-                modified_levels = levels[:i] + levels[i + 1:]
+                modified_levels: list[int] = levels[:i] + levels[i + 1:]
 
                 # Check if the modified sequence (report) is safe
                 if is_report_safe(modified_levels):
@@ -66,3 +66,26 @@ def solve_day_02_2024(filename: str) -> tuple[int, int] | str:
                 safe_reports_with_tolerance += 1
 
     return safe_reports, safe_reports + safe_reports_with_tolerance
+
+
+if __name__ == "__main__":
+    # Import function to print results
+    import time
+    from utils.file_utils import print_day_results
+
+    # Calculate results for demo and real input files
+    demo_1, demo_2 = solve_day_02_2024("input_demo.txt")
+    start_time = time.time()
+    solution_1, solution_2 = solve_day_02_2024("input.txt")
+    end_time = time.time()
+
+    # Calculate execution time in milliseconds
+    execution_time: int = int((end_time - start_time) * 1000)
+
+    # Print results in a formatted table (using rich)
+    print_day_results(
+        "2024", "02",
+        str(demo_1), str(demo_2),
+        str(solution_1), str(solution_2),
+        execution_time
+    )
