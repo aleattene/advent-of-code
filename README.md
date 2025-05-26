@@ -100,7 +100,7 @@ Resonant Collinearity
 
  - Day 01 - [Sonar Sweep](https://github.com/aleattene/advent-of-code/tree/main/year_2021/day_01_sonar_sweep) ⭐ ⭐
  - Day 02 - [Dive](https://github.com/aleattene/advent-of-code/tree/main/year_2021/day_02_dive) ⭐ ⭐
- - *Day 03* - **Binary Diagnostic**.
+ - Day 03 - [Binary Diagnostic](https://github.com/aleattene/advent-of-code/tree/main/year_2021/day_03_binary_diagnostic) ⭐ ⭐
  - *Day 04* - **Giant Squid.**
  - *Day 05* - **Hydrothermal Venture.**
  - *Day 06* - **Lantern Fish.**
