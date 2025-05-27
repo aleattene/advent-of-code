@@ -4,7 +4,7 @@ from utils.file_utils import get_input_file_path, read_input_file
 
 def find_occurrences_pattern(string: str, pattern: str) -> int:
     """Find the number of occurrences of a regex pattern in a string."""
-    matches = []
+    matches: list[str] = []
     for i in range(len(string)):
         match = re.match(pattern, string[i:])
         if match:
@@ -30,9 +30,9 @@ def is_neighbour_pattern_match(matrix: list[str], row: int, col: int, cross_patt
 
 def find_occurrences_cross_pattern(matrix, cross_patterns):
     """Find the number of occurrences of the cross patterns in the matrix."""
-    rows = len(matrix)
-    cols = len(matrix[0])
-    count_matching_patterns = 0
+    rows: int = len(matrix)
+    cols: int = len(matrix[0])
+    count_matching_patterns: int = 0
 
     # Iterate through each cell in the matrix (except the border cells)
     for row in range(1, rows - 1):
@@ -45,20 +45,20 @@ def find_occurrences_cross_pattern(matrix, cross_patterns):
 
 def create_diagonals_matrix(matrix: list[str]) -> list[str]:
     """Create a list of all diagonals from the given matrix."""
-    rows = len(matrix)
-    cols = len(matrix[0])
-    diagonals = []
+    rows: int = len(matrix)
+    cols: int = len(matrix[0])
+    diagonals: list[str] = []
 
     # Helper function to add diagonals
     def add_diagonal(start_row, start_col, delta_row, delta_col):
         """Add a diagonal to the list of diagonals."""
-        diagonal = ""
+        diagonal = []
         r, c = start_row, start_col
         while 0 <= r < rows and 0 <= c < cols:
-            diagonal += matrix[r][c]
+            diagonal.append(matrix[r][c])
             r += delta_row
             c += delta_col
-        diagonals.append(diagonal)
+        diagonals.append("".join(diagonal))
 
     # Diagonals from top-left to bottom-right
     for row in range(rows):
@@ -85,10 +85,10 @@ def solve_day_04_2024(filename: str) -> tuple[int, int] | str:
     except Exception as error:
         return f"Error: {error}"
 
-    xmas_pattern = r"XMAS|SAMX"
+    xmas_pattern: str = r"XMAS|SAMX"
 
     # Find the number of occurrences of the xmas patterns in the matrix (part one)
-    occurrences_pattern = sum(find_occurrences_pattern(line, xmas_pattern) for line in data)
+    occurrences_pattern: int = sum(find_occurrences_pattern(line, xmas_pattern) for line in data)
 
     cols = ["".join(col) for col in zip(*data)]
     occurrences_pattern += sum(find_occurrences_pattern(col, xmas_pattern) for col in cols)
@@ -97,8 +97,8 @@ def solve_day_04_2024(filename: str) -> tuple[int, int] | str:
     occurrences_pattern += sum(find_occurrences_pattern(d, xmas_pattern) for d in diagonals if len(d) >= 3)
 
     # Find the number of occurrences of the target patterns in the matrix (part two)
-    cross_patterns = ["MAS", "SAM"]
-    occurrences_cross_pattern = find_occurrences_cross_pattern(data, cross_patterns)
+    cross_patterns: list[str] = ["MAS", "SAM"]
+    occurrences_cross_pattern: int = find_occurrences_cross_pattern(data, cross_patterns)
 
     return occurrences_pattern, occurrences_cross_pattern
 
