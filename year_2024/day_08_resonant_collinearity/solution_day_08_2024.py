@@ -42,10 +42,12 @@ def generate_iterative_antinodes(initial_coord: tuple[int, int], direction: int,
 def solve_day_08_2024(filename: str) -> tuple[int, int] | str:
     """Solutions for Day 08 of AoC 2024."""
     try:
+        # Create the absolute path of the input file
         input_file_path = get_input_file_path(__file__, filename)
+        # Read the input file
         data = read_input_file(input_file_path)
     except Exception as error:
-        return f"Error: {error}"
+        raise RuntimeError(f"Error: {error}")
 
     # Grid dimensions and antennas coordinates
     rows, cols = len(data), len(data[0])

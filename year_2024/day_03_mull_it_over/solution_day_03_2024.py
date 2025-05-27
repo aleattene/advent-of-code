@@ -13,9 +13,8 @@ def solve_day_03_2024(filename: str) -> tuple[int, int]:
     try:
         # Create the absolute path of the input file
         input_file_path = get_input_file_path(__file__, filename)
-        with open(input_file_path, 'r', encoding='utf-8') as f:
-            # Read the input file
-            data = f.read().split("\n")
+        # Read the input file
+        data = read_input_file(input_file_path)
     except Exception as error:
         raise RuntimeError(f"Error: {error}")
 

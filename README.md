@@ -18,7 +18,7 @@ Resonant Collinearity
  - Day 02 - [Red Nosed Reports](https://github.com/aleattene/advent-of-code/tree/main/year_2024/day_02_red_nosed_reports) ⭐ ⭐
  - Day 03 - [Mull_It_Over](https://github.com/aleattene/advent-of-code/tree/main/year_2024/day_03_mull_it_over) ⭐ ⭐
  - Day 04 - [Ceres Search](https://github.com/aleattene/advent-of-code/tree/main/year_2024/day_04_ceres_search) ⭐ ⭐
- - *Day 05* - 
+ - Day 05 - [Print Queue](https://github.com/aleattene/advent-of-code/tree/main/year_2024/day_05_print_queue) ⭐ ⭐
  - *Day 06* -
  - Day 07 - [Bridge Repair](https://github.com/aleattene/advent-of-code/tree/main/year_2024/day_07_bridge_repair) ⭐ ⭐
  - Day 08 - [Resonant Collinearity](https://github.com/aleattene/advent-of-code/tree/main/year_2024/day_08_resonant_collinearity) ⭐ ⭐
