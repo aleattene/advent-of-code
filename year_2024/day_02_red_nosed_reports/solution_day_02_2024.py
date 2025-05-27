@@ -27,15 +27,22 @@ def is_report_safe(levels: list[int]) -> bool:
     return False
 
 
-def solve_day_02_2024(filename: str) -> tuple[int, int] | str:
-    """Calculate the number of safe reports and safe reports with tolerance. AoC 2024 - Day 02."""
+def solve_day_02_2024(filename: str) -> tuple[int, int]:
+    """
+    Solution of the Advent of Code 2024 Day 02 - Red-Nosed Reports.
+    :param filename: The name file containing the input data.
+    :return: A tuple with two integers:
+                - The number of safe reports (solution 1).
+                - The number of safe reports with one modification allowed (solution 2).
+    """
     try:
         # Create the absolute path of the input file
         input_file_path = get_input_file_path(__file__, filename)
-        # Read the input file
-        data = read_input_file(input_file_path)
+        with open(input_file_path, 'r', encoding='utf-8') as f:
+            # Read the input file
+            data = f.read().split("\n")
     except Exception as error:
-        return f"Error: {error}"
+        raise RuntimeError(f"Error: {error}")
 
     # Initialize the counters (solution 1 and 2)
     safe_reports: int = 0

@@ -75,19 +75,25 @@ def create_diagonals_matrix(matrix: list[str]) -> list[str]:
     return diagonals
 
 
-def solve_day_04_2024(filename: str) -> tuple[int, int] | str:
-    """Solutions for Day 04 of AoC 2024."""
+def solve_day_04_2024(filename: str) -> tuple[int, int]:
+    """
+    Solution of the Advent of Code 2024 Day 04 - Ceres Search.
+    :param filename: The name file containing the input data.
+    :return: A tuple containing the number of occurrences of the Xmas patterns (part 1) and
+                the number of occurrences of the cross patterns (part 2).
+    """
     try:
         # Create the absolute path of the input file
         input_file_path = get_input_file_path(__file__, filename)
-        # Read the input file
-        data = read_input_file(input_file_path)
+        with open(input_file_path, 'r', encoding='utf-8') as f:
+            # Read the input file
+            data = f.read().split("\n")
     except Exception as error:
-        return f"Error: {error}"
+        raise RuntimeError(f"Error: {error}")
 
     xmas_pattern: str = r"XMAS|SAMX"
 
-    # Find the number of occurrences of the xmas patterns in the matrix (part one)
+    # Find the number of occurrences of the Xmas patterns in the matrix (part one)
     occurrences_pattern: int = sum(find_occurrences_pattern(line, xmas_pattern) for line in data)
 
     cols = ["".join(col) for col in zip(*data)]
@@ -104,17 +110,23 @@ def solve_day_04_2024(filename: str) -> tuple[int, int] | str:
 
 
 if __name__ == "__main__":
-
     # Import function to print results
+    import time
     from utils.file_utils import print_day_results
 
     # Calculate results for demo and real input files
     demo_1, demo_2 = solve_day_04_2024("input_demo.txt")
+    start_time = time.time()
     solution_1, solution_2 = solve_day_04_2024("input.txt")
+    end_time = time.time()
+
+    # Calculate execution time in milliseconds
+    execution_time: int = int((end_time - start_time) * 1000)
 
     # Print results in a formatted table (using rich)
     print_day_results(
         "2024", "04",
         str(demo_1), str(demo_2),
-        str(solution_1), str(solution_2)
+        str(solution_1), str(solution_2),
+        execution_time
     )

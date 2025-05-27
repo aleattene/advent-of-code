@@ -3,19 +3,21 @@ from itertools import zip_longest
 from utils.file_utils import get_input_file_path, read_input_file
 
 
-def solve_day_03_2024(filename: str) -> tuple[int, int] | str:
+def solve_day_03_2024(filename: str) -> tuple[int, int]:
     """
-    Solutions for Day 03 of AoC 2024.
-    :param filename: The name of the input file containing the data.
-    :return: TO FIX
+    Solution of the Advent of Code 2024 Day 03 - Mull It Over.
+    :param filename: The name file containing the input data.
+    :return: A tuple containing the total sum of all mul(num1,num2) matches (part 1) and
+                the total sum of mul(num1,num2) matches that are preceded by do() (part 2).
     """
     try:
         # Create the absolute path of the input file
         input_file_path = get_input_file_path(__file__, filename)
-        # Read the input file
-        data = read_input_file(input_file_path)
+        with open(input_file_path, 'r', encoding='utf-8') as f:
+            # Read the input file
+            data = f.read().split("\n")
     except Exception as error:
-        return f"Error: {error}"
+        raise RuntimeError(f"Error: {error}")
 
     # Initialize the total sum that considers all matches of mul(num1,num2) function
     total_mul_sum: int = 0
